@@ -1,0 +1,19 @@
+{
+	"explorer.toggle" : true,
+	"explorer.openAction.strategy" :  "sourceWindow",
+	"explorer.icon.enableNerdfont" : true,
+	"explorer.icon.customIcons" : {
+		"icons": {
+			"rust": {
+				"code": "🦀",
+				"color": "#FA5D7C"
+			}
+		}
+	},
+	"explorer.icon.expanded" : "-",
+  "explorer.icon.collapsed": "+",
+  "clangd.path": "/opt/homebrew/opt/llvm/bin/clangd",
+  "clangd.semanticHighlighting": true,
+  "clangd.fallbackFlags": ["-Wall"],
+  "jedi.executable.command": "jedi-language-server"
+}
