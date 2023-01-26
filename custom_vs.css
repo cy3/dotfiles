@@ -1,0 +1,27 @@
+:root {
+  --tab-height: 26px;
+  --font-size-tab-title: 13px;
+}
+.editor-actions{
+  height: var(--tab-height) !important;
+  line-height: var(--tab-height) !important;
+}
+.tabs-container{
+  height: unset !important;
+}
+.tabs-container .tab{
+  height: var(--tab-height) !important;
+  line-height: var(--tab-height) !important;
+}
+.tabs-container .monaco-icon-label{
+  height: var(--tab-height) !important;
+  line-height: var(--tab-height) !important;
+  font-size: var(--font-size-tab-title) !important;
+}
+.tabs-container .monaco-icon-label:before{
+  height: var(--tab-height) !important;
+  line-height: var(--tab-height) !important;
+}
+.tabs-container .monaco-icon-description-container{
+  display: none;
+}
